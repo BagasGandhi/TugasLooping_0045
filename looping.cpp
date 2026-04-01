@@ -66,7 +66,10 @@ int main() {
                 tampilFibonacci();
                 break;
 
-            case 0: return 0;
+            case 0:
+                cout << "Program selesai\n";
+                return 0;
+
             default: cout << "Tidak valid\n";
         }
     }
