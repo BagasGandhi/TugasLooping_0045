@@ -20,7 +20,9 @@ int main() {
         menu();
 
         switch (pilihan) {
-            case 1: break;
+            case 1:
+                inputAngka();
+                break;
             case 2: break;
             case 0: return 0;
             default: cout << "Tidak valid\n";
