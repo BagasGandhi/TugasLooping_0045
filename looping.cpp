@@ -14,6 +14,13 @@ bool isPrima(int n) {
     return true;
 }
 
+void tampilPrima() {
+    if (isPrima(angka))
+        cout << "Prima\n";
+    else
+        cout << "Bukan Prima\n";
+}
+
 void inputAngka() {
     cout << "Masukkan angka: ";
     cin >> angka;
@@ -32,6 +39,7 @@ int main() {
         switch (pilihan) {
             case 1:
                 inputAngka();
+                tampilPrima();
                 break;
             case 2: break;
             case 0: return 0;
