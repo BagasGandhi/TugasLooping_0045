@@ -59,7 +59,12 @@ int main() {
                 inputAngka();
                 tampilPrima();
                 break;
-            case 2: break;
+
+            case 2:
+                inputAngka();
+                tampilFibonacci();
+                break;
+
             case 0: return 0;
             default: cout << "Tidak valid\n";
         }
