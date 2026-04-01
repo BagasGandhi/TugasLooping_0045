@@ -27,7 +27,7 @@ bool isFibonacci(int n) {
 
 void tampilPrima() {
     if (isPrima(angka))
-        cout << "Prima\n";
+        cout << angka << " adalah bilangan prima\n";
     else
         cout << "Bukan Prima\n";
 }
