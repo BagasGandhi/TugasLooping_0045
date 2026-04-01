@@ -45,6 +45,7 @@ void tampilFibonacci() {
 }
 
 void menu() {
+    cout << "\n=== MENU ===\n";
     cout << "1. Prima\n2. Fibonacci\n0. Keluar\n";
     cout << "Pilih: ";
     cin >> pilihan;
