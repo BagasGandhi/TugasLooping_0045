@@ -29,7 +29,7 @@ void tampilPrima() {
     if (isPrima(angka))
         cout << angka << " adalah bilangan prima\n";
     else
-        cout << "Bukan Prima\n";
+        cout << angka << " bukan bilangan prima\n";
 }
 
 void inputAngka() {
