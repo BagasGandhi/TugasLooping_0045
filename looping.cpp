@@ -37,6 +37,13 @@ void inputAngka() {
     cin >> angka;
 }
 
+void tampilFibonacci() {
+    if (isFibonacci(angka))
+        cout << "Fibonacci\n";
+    else
+        cout << "Bukan Fibonacci\n";
+}
+
 void menu() {
     cout << "1. Prima\n2. Fibonacci\n0. Keluar\n";
     cout << "Pilih: ";
