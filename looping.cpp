@@ -39,9 +39,9 @@ void inputAngka() {
 
 void tampilFibonacci() {
     if (isFibonacci(angka))
-        cout << "Fibonacci\n";
+        cout << angka << " adalah bilangan Fibonacci\n";
     else
-        cout << "Bukan Fibonacci\n";
+        cout << angka << " bukan bilangan Fibonacci\n";
 }
 
 void menu() {
